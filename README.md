@@ -6,3 +6,8 @@ versionamento do curso da DIO, gratuito
 ## 🐱‍👤Docs
 
 - Resumos das aulas
+- dicas e materiais
+
+## 🎁 Bonus
+
+- Extras e mais...
