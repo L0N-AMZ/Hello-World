@@ -1,0 +1,47 @@
+*git init*: Inicia um novo repositório local.
+		Exemplo: git init novo-repositorio
+
+*git clone URL*: Clona um repositório remoto para o local.
+		Exemplo: git clone https://github.com/exemplo/repo.git
+
+*git add arquivo*: Adiciona alterações de um arquivo à área de preparação.
+		Exemplo: git add index.html
+
+*git commit -m "mensagem"*: Registra alterações na área de preparação com uma mensagem.
+		Exemplo: git commit -m "Corrigido bug no login"
+
+*git status*: Mostra o estado atual do diretório de trabalho.
+		Exemplo: git status
+
+*git push*: Envia commits locais para um repositório remoto.
+		Exemplo: git push origin branch
+
+*git pull*: Atualiza o repositório local com alterações do remoto.
+		Exemplo: git pull origin main
+
+*git branch*: Lista, cria ou deleta branches.
+		Exemplo: git branch ou git branch -d nome-da-branch
+
+*git merge branch*: Incorpora alterações de uma branch na atual.
+		Exemplo: git merge feature-branch
+
+*git log*: Mostra o histórico de commits.
+		Exemplo: git log --oneline
+
+*git log --oneline*: Histórico de commits em formato compacto.
+		Exemplo: git log --oneline
+
+*git checkout --nome-do-arquivo*: Descarta alterações locais em um arquivo.
+		Exemplo: git checkout --index.html
+
+*git commit --amend*: Adiciona alterações ao commit mais recente.
+		Exemplo: git commit --amend
+
+*git branch --merged*: Lista branches mescladas na atual.
+		Exemplo: git branch --merged
+
+*git reset --hard HEAD*: Reseta arquivos para o último commit.
+		Exemplo: git reset --hard HEAD
+
+
+
