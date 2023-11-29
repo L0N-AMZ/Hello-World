@@ -1,0 +1,78 @@
+1. Seletor de Tipo:
+   - Descrição: Seleciona todos os elementos de um determinado tipo.
+   - Exemplo:
+     
+     p {
+         color: blue;
+     }
+     
+
+2. Seletor de Classe:
+   - Descrição: Seleciona todos os elementos que têm uma determinada classe.
+   - Exemplo:
+     
+     .destaque {
+         font-weight: bold;
+     }
+     
+
+3. Seletor de ID:
+   - Descrição: Seleciona um elemento com um ID específico.
+   - Exemplo:
+     
+     #cabecalho {
+         background-color: gray;
+     }
+     
+
+4. Seletor de Descendente:
+   - Descrição: Seleciona elementos que são descendentes de outro elemento.
+   - Exemplo:
+     
+     div p {
+         margin-left: 10px;
+     }
+     
+
+5. Seletor de Filho Direto:
+   - Descrição: Seleciona elementos que são filhos diretos de outro elemento.
+   - Exemplo:
+     
+     ul > li {
+         list-style-type: square;
+     }
+     
+
+6. Seletor Universal:
+   - Descrição: Seleciona todos os elementos.
+   - Exemplo:
+     
+     * {
+         border: 1px solid gray;
+     }
+     
+
+7. Seletor de Atributo:
+   - Descrição: Seleciona elementos com um atributo específico.
+   - Exemplo:
+     
+     input[type="text"] {
+         width: 200px;
+     }
+** input[type~="text"] -> palavra isolada em qqr lugar do atributo
+** input[type|="text"] -> palavra exata ou valor seguido imediatamente por hifen
+** input[type^="text"] -> busca pela palavra como prefixo
+** input[type$="text"] -> busca pela palavra como sufixo
+** input[type*="text"] -> busca pela palavra em qqr posição dentro do atributo
+
+
+     
+
+8. Seletor de Pseudo-Classe:
+   - Descrição: Seleciona elementos em um estado específico.
+   - Exemplo:
+     
+     a:hover {
+         text-decoration: underline;
+     }
+     
